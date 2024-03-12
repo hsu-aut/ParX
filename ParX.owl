@@ -12,6 +12,7 @@
         <owl:imports rdf:resource="http://openmath.org/vocab/math"/>
         <owl:imports rdf:resource="http://www.hsu-hh.de/aut/ontologies/unece/1.0.0"/>
         <owl:imports rdf:resource="http://www.w3id.org/hsu-aut/2.0.0"/>
+        <owl:imports rdf:resource="http://www.w3id.org/hsu-aut/DIN8580/2.0.0"/>
         <owl:imports rdf:resource="http://www.w3id.org/hsu-aut/VDI3682/4.0.1"/>
     </owl:Ontology>
     
@@ -53,6 +54,39 @@
         <rdfs:domain rdf:resource="http://www.w3id.org/hsu-aut/VDI3682#State"/>
         <rdfs:domain rdf:resource="http://www.w3id.org/hsu-aut/VDI3682#TechnicalResource"/>
     </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3id.org/hsu-aut/DIN8580#Fertigungsverfahren -->
+
+    <rdf:Description rdf:about="http://www.w3id.org/hsu-aut/DIN8580#Fertigungsverfahren">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI3682#ProcessOperator"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3id.org/hsu-aut/DINEN61360#Data_Element -->
+
+    <rdf:Description rdf:about="http://www.w3id.org/hsu-aut/DINEN61360#Data_Element">
+        <owl:equivalentClass rdf:resource="http://www.w3id.org/hsu-aut/VDI3682#Attribute"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3id.org/hsu-aut/VDI3682#Attribute -->
+
+    <rdf:Description rdf:about="http://www.w3id.org/hsu-aut/VDI3682#Attribute"/>
 </rdf:RDF>
 
 
