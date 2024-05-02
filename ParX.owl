@@ -31,9 +31,9 @@
 
     <!-- http://www.hsu-hh.de/aut/ParX#hasApplication -->
 
-    <owl:ObjectProperty rdf:about="http://www.hsu-hh.de/aut/ParX#hasApplication">
+    <owl:ObjectProperty rdf:about="http://www.hsu-hh.de/aut/ParX#hasInterdependency">
         <rdfs:domain rdf:resource="http://www.w3id.org/hsu-aut/VDI3682#ProcessOperator"/>
-        <rdfs:range rdf:resource="http://openmath.org/vocab/math#Application"/>
+        <rdfs:range rdf:resource="http://www.hsu-hh.de/aut/ParX#Interdependency"/>
     </owl:ObjectProperty>
     
 
@@ -82,6 +82,10 @@
         <owl:equivalentClass rdf:resource="http://www.w3id.org/hsu-aut/VDI3682#Attribute"/>
     </rdf:Description>
     
+    <!-- http://www.hsu-hh.de/aut/ParX#Interdependency-->
+    <rdf:Description:about="http://www.hsu-hh.de/aut/ParX#Interdependency">
+        <owl:equivalentClass rdf:resource="http://openmath.org/vocab/math#Application"/>
+    </rdf:Description>
 
 
     <!-- http://www.w3id.org/hsu-aut/VDI3682#Attribute -->
