@@ -83,7 +83,7 @@
     </rdf:Description>
     
     <!-- http://www.hsu-hh.de/aut/ParX#Interdependency-->
-    <rdf:Description:about="http://www.hsu-hh.de/aut/ParX#Interdependency">
+    <rdf:Description rdf:about="http://www.hsu-hh.de/aut/ParX#Interdependency">
         <owl:equivalentClass rdf:resource="http://openmath.org/vocab/math#Application"/>
     </rdf:Description>
 
